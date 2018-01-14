@@ -82,7 +82,8 @@ Visual Studio Code では、すべての主要なプラットフォーム (Windo
 4. Azure Storage Emulator を実行するか、*local.appsettings.json* ファイルを実際の Azure Storage の接続文字列で更新します。
 3. Visual Studio Code でプロジェクトを開きます。 
 5. このサンプルの実行方法については、[関数チェーン - Hello シーケンス サンプル](durable-functions-sequence.md)に記載されている手順から始めてください。 サンプルは、ローカルで実行することも Azure に発行することもできます。
-6. コマンド プロンプト/ターミナルで次のコマンドを実行して、プロジェクトを開始します:
+6. コマンド プロンプト/ターミナルで次のコマンドを実行して、プロジェクトを開始します。
+
     ```bash
     func host start
     ```
@@ -110,7 +111,8 @@ Visual Studio Code では、すべての主要なプラットフォーム (Windo
     > 現時点で Durable Function テンプレートは使用できませんが、サポートされるオプションのいずれかで開始して、コードを変更できます。 参照用に、[オーケストレーション クライアント](https://github.com/Azure/azure-functions-durable-extension/tree/master/samples/csx/HttpStart)、[オーケストレーション トリガー](https://github.com/Azure/azure-functions-durable-extension/tree/master/samples/csx/E1_HelloSequence)、[アクティビティ トリガー](https://github.com/Azure/azure-functions-durable-extension/tree/master/samples/csx/E1_HelloSequence)のサンプルを使用してください。
 
 6. Visual Studio Code でプロジェクト フォルダーを開き、テンプレート コードを修正して続行します。 
-7. コマンド プロンプト/ターミナルで次のコマンドを実行して、プロジェクトを開始します:
+7. コマンド プロンプト/ターミナルで次のコマンドを実行して、プロジェクトを開始します。
+    
     ```bash
     func host start
     ```
